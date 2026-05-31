@@ -7,7 +7,7 @@ export const NAMES: string[] = [
   'Dave S', 'David M',
   'Elliot E',
   'Jim L', 'Joe K', 'John M',
-  'Lewis E',
+  'Lee M', 'Lewis E',
   'Michael H',
   'Tom M', 'Tony H',
   'Will M', 'Zach S',

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800;900&display=swap');
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Syne', sans-serif;
+  background: #0d0d14;
+  color: #f0eeff;
+  min-height: 100vh;
+}
+
+.glow {
+  position: fixed;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 400px;
+  background: radial-gradient(ellipse, rgba(123,47,190,0.22) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}

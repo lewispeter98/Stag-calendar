@@ -15,7 +15,7 @@ export const NAMES: string[] = [
 
 function generateDates(): string[] {
   const dates: string[] = []
-  const start = new Date('2026-07-10')
+  const start = new Date('2026-07-03')
   const end = new Date('2026-08-16')
   const cur = new Date(start)
   while (cur <= end) {
